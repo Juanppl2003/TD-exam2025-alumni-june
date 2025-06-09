@@ -1,0 +1,9 @@
+runtime: 
+service: 
+instance_class: 
+entrypoint: gunicorn -b :$PORT main:apps
+env_variables:
+  GCP_BUCKET_NAME: "REPLACE_BUCKET_NAME" 
+handlers:
+- url: /.*
+  script: auto
