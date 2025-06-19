@@ -6,8 +6,9 @@ on:
       - main
 
 env:
-  PROJECT_ID: ${{ vars.GCP_PROJECT_ID }}
-  
+  PROJECT_ID: ${{ xxx }}
+  IMAGE_NAME: gcr.io/${{ vars.GCP_PROJECT_ID }}/exam2025
+  # Definición de variables indicadas en los requisitos
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -17,7 +18,7 @@ jobs:
     - name: Authenticate with Google Cloud
       uses: google-github-actions/auth@v2
       with:
-        credentials_json: ${{ secrets.GCP_SA_KEY }}
+        credentials_json: ${{ xxx }}
     - uses: "google-github-actions/setup-gcloud@v2"
       with:
         install_components: "gke-gcloud-auth-plugin"
@@ -37,6 +38,8 @@ jobs:
     - name: Deploy to GKE
       run: |
         gcloud container clusters get-credentials $GKE_CLUSTER --zone $GKE_ZONE
+        # Ejecutar despliegue en Kubernetes
     - name: Deploy to App Engine
       run: |
         sed "s/REPLACE_BUCKET_NAME/${{ vars.GCP_BUCKET_NAME }}/g" app.yaml > app.generated.yaml
+        # Ejecutar despliegue en app engine

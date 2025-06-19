@@ -14,15 +14,15 @@ spec:
     spec:
       containers:
       - name: exam2025
-        image: gcr.io/icai2025/exam2025:latest
-        imagePullPolicy: 
+        image: gcr.io/xxxxxx/exam2025:latest
+        imagePullPolicy: Always
         ports:
-        - containerPort: 5001
+        - containerPort: 
         env:
           - name: GCP_BUCKET_NAME
             value: "REPLACE_BUCKET_NAME"
         livenessProbe:
-          periodSeconds: 
+          periodSeconds: 1
           httpGet:
             path: /probe
             port: 

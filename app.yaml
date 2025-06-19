@@ -1,6 +1,6 @@
 runtime: 
 service: 
-instance_class: 
+instance_class: F1
 entrypoint: gunicorn -b :$PORT main:apps
 env_variables:
   GCP_BUCKET_NAME: "REPLACE_BUCKET_NAME" 
