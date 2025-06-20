@@ -47,4 +47,4 @@ jobs:
       run: |
         sed "s/REPLACE_BUCKET_NAME/${{ vars.GCP_BUCKET_NAME }}/g" app.yaml > app.generated.yaml
         # Ejecutar despliegue en app engine
-        gcloud app deploy app.generated.yaml --project $PROJECT_ID --quiet
+        gcloud app deploy app.yaml --project $PROJECT_ID --quiet
