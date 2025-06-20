@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: exam2025
-        image: gcr.io/$IMAGE_NAME/exam2025:latest
+        image: gcr.io/$IMAGE_NAME/:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80
