@@ -1,4 +1,4 @@
-runtime: python
+runtime: python:3.11-slim
 service: 
 instance_class: F1
 entrypoint: gunicorn -b :$PORT main:apps
