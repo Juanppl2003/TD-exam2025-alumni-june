@@ -110,7 +110,7 @@ Solución: A, B, D
 * C) `git pull`
 * D) `git revert HEAD`
 
-Solución:
+Solución: A
 
 ---
 
@@ -154,7 +154,7 @@ Solución: A, C
 * C) Borrar un repositorio automáticamente
 * D) Gestionar la configuración del repositorios git
 
-Solución: A, B, falta
+Solución: A, B, D
 
 ---
 
@@ -199,7 +199,7 @@ Solución: A, B, D
 * C) `workflow-engine:`
 * D) `pipelines:`
 
-Solución: A, B, duda
+Solución: A, B 
 
 ---
 
