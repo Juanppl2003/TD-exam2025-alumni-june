@@ -2,13 +2,13 @@
 variable "gcp-project" {
   description = "GCP project"
   type        = string
-  default     = ""
+  default     = "lab-6-451616"
 }
 
 variable "gcp-network" {
   description = "GCP network"
   type        = string
-  default     = ""
+  default     = "default"
 }
 
 variable "gcp-region" {
@@ -24,21 +24,21 @@ variable "gcp-zone" {
 variable "gcp-cluster-name" {
   description = "Cluster name"
   type        = string
-  default     = ""
+  default     = "juanpablo-cluster"
 }
 
 variable "gcp-node-count" {
   description = "Number of K8s Worker nodes"
-  type        = 
-  default     = 
+  type        = number
+  default     = 2
 }
 variable "gcp-node-size" {
   description = "K8s Worker nodes size"
   type        = string
-  default     = ""
+  default     = "e2-small"
 }
 variable "gcp-bucket-name" {
   description = "Bucket Name"
   type        = string
-  default     = ""
+  default     = "juanpablo-bucket"
 }
