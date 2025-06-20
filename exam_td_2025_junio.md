@@ -22,7 +22,7 @@ Solución:  C
 * [c] Se utilizan para autorizar el acceso a las API's de Google CLoud por parte de los usuarios
 * [d] Las instancias de Compute Engine pueden utilizar "Service Accounts" para acceder a los servicios de Google
 
-Solución: , D
+Solución: A,C,D
 
 ---
 
@@ -33,7 +33,7 @@ Solución: , D
 * [c] Si una de las instancias tiene un problema, Google Cloud la reemplazará con una nueva instancia dentro del MIG
 * [d] Un mismo MIG puede contener instancias en diferentes zonas de la misma región
 
-Solución: 
+Solución:  A, B, D
 
 ---
 
