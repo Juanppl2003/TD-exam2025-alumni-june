@@ -1,5 +1,5 @@
 runtime: python311
-service: 
+service: index
 instance_class: F1
 entrypoint: gunicorn -b :$PORT main:apps
 env_variables:
