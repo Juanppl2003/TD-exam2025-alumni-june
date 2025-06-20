@@ -1,5 +1,4 @@
 flask
 google-cloud-storage
 gunicorn
-os
 datetime
