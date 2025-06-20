@@ -11,7 +11,7 @@
 * [c] Custom IAM roles
 * [d] Una combinación de [a] y [b]
 
-Solución:
+Solución:  C
 
 ---
 
@@ -22,7 +22,7 @@ Solución:
 * [c] Se utilizan para autorizar el acceso a las API's de Google CLoud por parte de los usuarios
 * [d] Las instancias de Compute Engine pueden utilizar "Service Accounts" para acceder a los servicios de Google
 
-Solución:
+Solución: , D
 
 ---
 
@@ -33,7 +33,7 @@ Solución:
 * [c] Si una de las instancias tiene un problema, Google Cloud la reemplazará con una nueva instancia dentro del MIG
 * [d] Un mismo MIG puede contener instancias en diferentes zonas de la misma región
 
-Solución:
+Solución: 
 
 ---
 
@@ -44,7 +44,7 @@ Solución:
 * [c] Cloud Storage permite almacenamiento de datos no estructurados áltamente escalable y accesible mediante APIs
 * [d] La clase "Archive" está indicada para datos que no tienen una duración mínina de almacenamiento y que no implican costes de recuperación
 
-Solución:
+Solución: A, B, 
 
 ---
 
@@ -55,7 +55,7 @@ Solución:
 * C) Cuando un contenedor dentro de un Pod finaliza su ejecución, Kubernetes lo reinicia automáticamente
 * D) La propiedad resources.requests.cpu de un contendor dentro de un Pod indica la máxima cantidad de CPU que el contenedor puede utilizar
 
-Solución:
+Solución: A, C
 
 ---
 
@@ -66,7 +66,7 @@ Solución:
 * C) En GKE, se considera una buena práctica definir el disco persistente de Google Cloud en la sección "volumes" de la especificación del Pod
 * D) Para realizar provisión automática de volúmenes en Kubernetes basta con crear dos recursos adicionales: PersistentVolume y PersistentVolumeClaim y configurarlos adecuadamente
 
-Solución:
+Solución: B, D
 
 ---
 
@@ -77,7 +77,7 @@ Solución:
 * C) Para desplegar microservicios que implementan servidores de base de datos, la aproximación recomendada es utilizar StatefulSet
 * D) El recurso Deployment es ideal para microservicios que requieren almacenamiento persistente
 
-Solución:
+Solución: C
 
 ---
 
@@ -88,7 +88,7 @@ Solución:
 * C) `git stash`
 * D) `git diff`
 
-Solución:
+Solución: A 
 
 ---
 
@@ -99,7 +99,7 @@ Solución:
 * C) Solo funcionan en repositorios públicos
 * D) Son necesarios permisos de administrador para su ejecución
 
-Solución:
+Solución: A, B, D
 
 ---
 
@@ -121,7 +121,7 @@ Solución:
 * C) Implementación manual de software
 * D) Monitorización continua
 
-Solución:
+Solución: A, B, D
 
 ---
 
@@ -132,7 +132,7 @@ Solución:
 * C) `terraform apply`
 * D) `terraform init`
 
-Solución:
+Solución: C
 
 ---
 
@@ -143,7 +143,7 @@ Solución:
 * C) Soportan triggers HTTP
 * D) Solo soporta Python como lenguaje de programación
 
-Solución:
+Solución: A, C
 
 ---
 
@@ -154,7 +154,7 @@ Solución:
 * C) Borrar un repositorio automáticamente
 * D) Gestionar la configuración del repositorios git
 
-Solución:
+Solución: A, B, falta
 
 ---
 
@@ -165,7 +165,7 @@ Solución:
 * C) Requiere configurar el sistema operativo base
 * D) Soporta despliegue continuo desde GitHub
 
-Solución:
+Solución: A, B, D
 
 ---
 
@@ -176,7 +176,7 @@ Solución:
 * C) Solo permite como lenguajes de programación PHP y Python
 * D) Se integra con servicios gestionados de GCP
 
-Solución:
+Solución: A, D
 
 ---
 
@@ -188,7 +188,7 @@ Solución:
 * C) Implementación más lenta
 * D) Versionado de la infraestructura
 
-Solución:
+Solución: A, B, D
 
 ---
 
@@ -199,7 +199,7 @@ Solución:
 * C) `workflow-engine:`
 * D) `pipelines:`
 
-Solución:
+Solución: A, B, duda
 
 ---
 
@@ -210,7 +210,7 @@ Solución:
 * C) `git rebase`   
 * D) `git cherry-pick`
 
-Solución:
+Solución: A
 
 ---
 
@@ -221,6 +221,6 @@ Solución:
 * C) Google Docs
 * D) Google Drive
 
-Solución:
+Solución: A, B 
 
 ---
