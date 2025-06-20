@@ -3,9 +3,9 @@ from flask import Flask, request, render_template
 from google.cloud import storage
 from datetime import datetime
 
-app = Flask(__name__)
+apps = Flask(__name__)
 
-@app.route("/", methods=["GET", "POST"])
+@apps.route("/", methods=["GET", "POST"])
 def index():
     if request.method == "POST":
         frase = request.form["frase"]
@@ -28,9 +28,9 @@ def index():
 
     return render_template("index.html")
 
-@app.route("/probe", methods=["GET"])
+@apps.route("/probe", methods=["GET"])
 def probe():
     return "OK", 200
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=5000)
+    apps.run(host='0.0.0.0', port=5000)
