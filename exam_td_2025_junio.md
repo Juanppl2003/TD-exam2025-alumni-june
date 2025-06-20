@@ -44,7 +44,7 @@ Solución:  A, B, D
 * [c] Cloud Storage permite almacenamiento de datos no estructurados áltamente escalable y accesible mediante APIs
 * [d] La clase "Archive" está indicada para datos que no tienen una duración mínina de almacenamiento y que no implican costes de recuperación
 
-Solución: A, B, 
+Solución: A, B
 
 ---
 
@@ -110,7 +110,7 @@ Solución: A, B, D
 * C) `git pull`
 * D) `git revert HEAD`
 
-Solución: A
+Solución: B
 
 ---
 
